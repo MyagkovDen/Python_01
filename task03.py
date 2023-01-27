@@ -6,7 +6,7 @@
 385916 -> yes
 123456 -> no
 """
-# 999 999
+
 ticket = int(input("Введите номер билета: "))
 number = ticket
 if 99999 < number < 1000000:
