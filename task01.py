@@ -4,7 +4,10 @@
 
 number = int(input("Введите трехзначное число: "))
 sum = 0
-while number > 0:
-    sum += number % 10
-    number = number // 10
-print(sum)
+if 99 < number < 1000:
+    while number > 0:
+        sum += number % 10
+        number = number // 10
+    print(f"Сумма цифр: {sum}")
+else:
+    print("Вы не ввели трехзначное число!")
