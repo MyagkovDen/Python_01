@@ -6,7 +6,7 @@
 # 60 -> 10 40 10
 
 S = int(input("Введите число журавликов: "))
-petya = int(S/6)
+petya = S/6
 serg = petya
 katya = (petya + serg) * 2
 print(f'Петя - {petya}, Катя - {katya}, Cережа - {serg}')
